@@ -1,12 +1,18 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Example Planet",
+	"HeightMap": {
+		"minHeight": 5,
+        "maxHeight": 100,
+        "heightMap": "planets/assets/earth_heightmap.webp",
+        "textureMap": "planets/assets/flat_earth_Largest_still.0330.jpg"
+	},
 	"Base": {
 		"groundSize": 100,
 		"surfaceSize": 100,
 		"surfaceGravity": 10,
-		"hasMapMarker": true,
-		"ambientLight": 0.8
+		"hasMapMarker": true
+		
 	},
 	"Orbit": {
 		"primaryBody": "Sun",
@@ -22,7 +28,7 @@
 					"y": 101,
 					"z": 0
 				},
-				"alignToNormal": true,
+				
 				"scale" : 0.02,
 				"removeChildren" :[
 					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
