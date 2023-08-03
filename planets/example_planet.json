@@ -16,13 +16,23 @@
 
 			},
 			{
-				"time": 2,
-				"value": 30
+				"time": 5,
+				"value": 25
 
 			},
 			{
-				"time": 3,
+				"time": 10,
 				"value": 0
+			},
+			{
+				"time": 15,
+				"value": 25
+
+			},
+			{
+				"time": 20,
+				"value": 0
+
 			}
 		] 
 		
