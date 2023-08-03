@@ -4,7 +4,7 @@
 	"HeightMap": {
 		"minHeight": 5,
         "maxHeight": 100,
-        "heightMap": "planets/assets/earth_heightmap.webp",
+        "heightMap": "planets/assets/earth_heightmap.jpg",
         "textureMap": "planets/assets/flat_earth_Largest_still.0330.jpg"
 	},
 	"Base": {
