@@ -7,6 +7,21 @@
         "heightMap": "planets/assets/earth_heightmap.jpg",
         "textureMap": "planets/assets/flat_earth_Largest_still.0330.jpg"
 	},
+	"Water": {
+		"curve":[
+			{
+				"time": 0,
+				"value": 100
+
+			},
+			{
+				"time": 22,
+				"value": 0
+
+			}
+		] 
+		
+	},
 	"Base": {
 		"groundSize": 0,
 		"surfaceSize": 301,
