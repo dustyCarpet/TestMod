@@ -2,36 +2,44 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Example Planet",
 	"HeightMap": {
-		"minHeight": 100,
+		"minHeight": 50,
         "maxHeight": 200,
         "heightMap": "planets/assets/earth_heightmap.jpg",
         "textureMap": "planets/assets/flat_earth_Largest_still.0330.jpg"
 	},
 	"Water": {
 		"size": 5,
+		"density": 90,
+		"buoyancy": 2.0,
+		"tint": {
+			"r": 0,
+			"g": 20,
+			"b": 50,
+			"a": 200
+		},
 		"curve":[
 			{
 				"time": 0,
-				"value": 0
+				"value": 26
 
 			},
 			{
 				"time": 5,
-				"value": 25
+				"value": 15
 
 			},
 			{
 				"time": 10,
-				"value": 0
+				"value": 26
 			},
 			{
 				"time": 15,
-				"value": 25
+				"value": 15
 
 			},
 			{
 				"time": 20,
-				"value": 0
+				"value": 26
 
 			}
 		] 
