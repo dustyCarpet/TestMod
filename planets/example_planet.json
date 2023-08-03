@@ -3,7 +3,7 @@
 	"name" : "Example Planet",
 	"HeightMap": {
 		"minHeight": 200,
-        "maxHeight": 300,
+        "maxHeight": 250,
         "heightMap": "planets/assets/earth_heightmap.jpg",
         "textureMap": "planets/assets/flat_earth_Largest_still.0330.jpg"
 	},
