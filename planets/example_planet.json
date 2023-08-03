@@ -9,8 +9,8 @@
 	},
 	"Water": {
 		"size": 5,
-		"density": 90,
-		"buoyancy": 5.0,
+		"density": 100,
+		"buoyancy": 8.0,
 		"tint": {
 			"r": 0,
 			"g": 100,
@@ -25,16 +25,16 @@
 			},
 			{
 				"time": 2,
-				"value": 15
+				"value": 6
 
 			},
 			{
-				"time": 10,
+				"time": 4,
 				"value": 26
 			},
 			{
 				"time": 15,
-				"value": 15
+				"value": 6
 
 			},
 			{
