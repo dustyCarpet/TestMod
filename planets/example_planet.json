@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Example Planet",
 	"HeightMap": {
-		"minHeight": 150,
+		"minHeight": 100,
         "maxHeight": 200,
         "heightMap": "planets/assets/earth_heightmap.jpg",
         "textureMap": "planets/assets/flat_earth_Largest_still.0330.jpg"
@@ -12,13 +12,17 @@
 		"curve":[
 			{
 				"time": 0,
-				"value": 20
+				"value": 0
 
 			},
 			{
-				"time": 22,
-				"value": 0
+				"time": 2,
+				"value": 30
 
+			},
+			{
+				"time": 3,
+				"value": 0
 			}
 		] 
 		
