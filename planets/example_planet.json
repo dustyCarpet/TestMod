@@ -8,7 +8,7 @@
         "textureMap": "planets/assets/flat_earth_Largest_still.0330.jpg"
 	},
 	"Water": {
-		"size": 180,
+		"size": 100,
 		"curve":[
 			{
 				"time": 0,
@@ -16,7 +16,7 @@
 
 			},
 			{
-				"time": 1,
+				"time": 22,
 				"value": 0
 
 			}
