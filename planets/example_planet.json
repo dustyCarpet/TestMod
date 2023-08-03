@@ -3,15 +3,16 @@
 	"name" : "Example Planet",
 	"HeightMap": {
 		"minHeight": 150,
-        "maxHeight": 230,
+        "maxHeight": 200,
         "heightMap": "planets/assets/earth_heightmap.jpg",
         "textureMap": "planets/assets/flat_earth_Largest_still.0330.jpg"
 	},
 	"Water": {
+		"size": 180,
 		"curve":[
 			{
 				"time": 0,
-				"value": 200
+				"value": 180
 
 			},
 			{
@@ -24,7 +25,7 @@
 	},
 	"Base": {
 		"groundSize": 0,
-		"surfaceSize": 301,
+		"surfaceSize": 201,
 		"surfaceGravity": 20,
 		"hasMapMarker": true
 		
