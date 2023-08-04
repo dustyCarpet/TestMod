@@ -7,8 +7,19 @@
         "heightMap": "planets/assets/earth_heightmap.jpg",
         "textureMap": "planets/assets/flat_earth_Largest_still.0330.jpg"
 	},
+	"Atmosphere": {
+		"size": 700,
+		"atmosphereTint": {
+			"r": 0,
+			"g": 50,
+			"b": 150,
+			"a": 200
+		},
+		"hasOxygen": true,
+		"hasTrees": true
+	},
 	"Water": {
-		"size": 10,
+		"size": 25,
 		"density": 100,
 		"buoyancy": 10.0,
 		"tint": {
