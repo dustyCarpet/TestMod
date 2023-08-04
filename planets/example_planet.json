@@ -23,7 +23,7 @@
 		},
 		"hasOxygen": true,
 		"hasTrees": true,
-		"useAtmosphereShader": true
+		"useAtmosphereShader": false
 	},
 	"Water": {
 		"size": 25,
