@@ -11,7 +11,9 @@
 		"size": 700,
 		"clouds": {
 			"cloudsPrefab": "giantsDeep",
-			"fluidType": "cloud"
+			"fluidType": "cloud",
+			"outerCloudRadius": 700,
+			"innerCloudRadius": 690
 		},
 		"atmosphereTint": {
 			"r": 0,
@@ -20,7 +22,8 @@
 			"a": 200
 		},
 		"hasOxygen": true,
-		"hasTrees": true
+		"hasTrees": true,
+		"useAtmosphereShader": true
 	},
 	"Water": {
 		"size": 25,
@@ -28,14 +31,14 @@
 		"buoyancy": 3.0,
 		"tint": {
 			"r": 0,
-			"g": 150,
-			"b": 50,
-			"a": 200
+			"g": 50,
+			"b": 150,
+			"a": 150
 		},
 		"curve":[
 			{
 				"time": 0,
-				"value": 18
+				"value": 16
 
 			},
 			{
@@ -45,7 +48,7 @@
 			},
 			{
 				"time": 4,
-				"value": 18
+				"value": 16
 			},
 			{
 				"time": 15,
@@ -53,8 +56,8 @@
 
 			},
 			{
-				"time": 20,
-				"value": 18
+				"time": 22,
+				"value": 16
 
 			}
 		] 
