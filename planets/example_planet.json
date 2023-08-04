@@ -23,7 +23,15 @@
 		},
 		"hasOxygen": true,
 		"hasTrees": true,
-		"useAtmosphereShader": false
+		"useAtmosphereShader": true,
+		"fogDensity": 1.0,
+		"fogSize": 700,
+		"fogTint": {
+			"r": 0,
+			"g": 0,
+			"b": 50,
+			"a": 215
+		}
 	},
 	"Water": {
 		"size": 25,
