@@ -10,10 +10,12 @@
 	"Atmosphere": {
 		"size": 700,
 		"clouds": {
-			"cloudsPrefab": "giantsDeep",
+			"cloudsPrefab": "transparent",
+			"texturePath": "planets/assets/thalassia_g.png",
 			"fluidType": "cloud",
 			"outerCloudRadius": 700,
-			"innerCloudRadius": 690
+			"innerCloudRadius": 690,
+			"rotationSpeed": -3.8
 		},
 		"atmosphereTint": {
 			"r": 0,
@@ -23,16 +25,7 @@
 		},
 		"hasOxygen": true,
 		"hasTrees": true,
-		"useAtmosphereShader": true,
-		"fogDensity": 1.0,
-		"fogSize": 700,
-		"fogRampPath": "planets/assets/FogColorRamp.png",
-		"fogTint": {
-			"r": 0,
-			"g": 0,
-			"b": 50,
-			"a": 215
-		}
+		"useAtmosphereShader": true
 	},
 	"Water": {
 		"size": 25,
