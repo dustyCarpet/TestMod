@@ -3,7 +3,7 @@
 	"name" : "Example Planet",
 	"HeightMap": {
 		"minHeight": 450,
-        "maxHeight": 600,
+        "maxHeight": 500,
         "heightMap": "planets/assets/earth_heightmap.jpg",
         "textureMap": "planets/assets/flat_earth_Largest_still.0330.jpg"
 	},
@@ -14,8 +14,8 @@
 			"texturePath": "planets/assets/thalassia_g.png",
 			"fluidType": "cloud",
 			"outerCloudRadius": 700,
-			"innerCloudRadius": 690,
-			"rotationSpeed": -3.8
+			"innerCloudRadius": 650,
+			"rotationSpeed": 0
 		},
 		"atmosphereTint": {
 			"r": 0,
