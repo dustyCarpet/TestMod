@@ -3,19 +3,19 @@
 	"name" : "Example Planet",
 	"HeightMap": {
 		"minHeight": 450,
-        "maxHeight": 500,
+        "maxHeight": 550,
         "heightMap": "planets/assets/earth_heightmap.jpg",
         "textureMap": "planets/assets/flat_earth_Largest_still.0330.jpg"
 	},
 	"Atmosphere": {
 		"size": 700,
 		"clouds": {
-			"cloudsPrefab": "transparent",
+			"cloudsPrefab": "basic",
 			"texturePath": "planets/assets/thalassia_g.png",
 			"fluidType": "cloud",
 			"outerCloudRadius": 700,
-			"innerCloudRadius": 650,
-			"rotationSpeed": 0
+			"innerCloudRadius": 620,
+			"rotationSpeed": 5
 		},
 		"atmosphereTint": {
 			"r": 0,
@@ -28,7 +28,7 @@
 		"useAtmosphereShader": true
 	},
 	"Water": {
-		"size": 25,
+		"size": 10,
 		"density": 100,
 		"buoyancy": 3.0,
 		"tint": {
@@ -40,26 +40,26 @@
 		"curve":[
 			{
 				"time": 0,
-				"value": 18
+				"value": 30
 
 			},
 			{
 				"time": 2,
-				"value": 20
+				"value": 50
 
 			},
 			{
 				"time": 4,
-				"value": 18
+				"value": 30
 			},
 			{
 				"time": 15,
-				"value": 20
+				"value": 50
 
 			},
 			{
 				"time": 22,
-				"value": 18
+				"value": 30
 
 			}
 		] 
