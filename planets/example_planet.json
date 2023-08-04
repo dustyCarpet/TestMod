@@ -9,6 +9,12 @@
 	},
 	"Atmosphere": {
 		"size": 700,
+		"clouds": {
+			"cloudsPrefab": "basic",
+			"fluidType": "cloud",
+			"innerCloudRadius": 675,
+			"outerCloudRadius": 700
+		},
 		"atmosphereTint": {
 			"r": 0,
 			"g": 50,
@@ -31,26 +37,26 @@
 		"curve":[
 			{
 				"time": 0,
-				"value": 10
+				"value": 15
 
 			},
 			{
 				"time": 2,
-				"value": 26
+				"value": 22
 
 			},
 			{
 				"time": 4,
-				"value": 10
+				"value": 15
 			},
 			{
 				"time": 15,
-				"value": 26
+				"value": 22
 
 			},
 			{
 				"time": 20,
-				"value": 10
+				"value": 15
 
 			}
 		] 
