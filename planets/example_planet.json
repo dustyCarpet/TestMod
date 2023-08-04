@@ -9,37 +9,37 @@
 	},
 	"Water": {
 		"size": 5,
-		"density": 50,
+		"density": 200,
 		"buoyancy": 10.0,
 		"tint": {
 			"r": 0,
 			"g": 100,
-			"b": 200,
+			"b": 150,
 			"a": 200
 		},
 		"curve":[
 			{
 				"time": 0,
-				"value": 26
+				"value": 10
 
 			},
 			{
 				"time": 2,
-				"value": 6
+				"value": 26
 
 			},
 			{
 				"time": 4,
-				"value": 26
+				"value": 10
 			},
 			{
 				"time": 15,
-				"value": 6
+				"value": 26
 
 			},
 			{
 				"time": 20,
-				"value": 26
+				"value": 10
 
 			}
 		] 
