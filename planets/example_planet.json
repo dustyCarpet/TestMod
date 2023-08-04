@@ -47,7 +47,7 @@
 	},
 	"Base": {
 		"groundSize": 0,
-		"surfaceSize": 201,
+		"surfaceSize": 401,
 		"surfaceGravity": 20,
 		"hasMapMarker": true
 		
