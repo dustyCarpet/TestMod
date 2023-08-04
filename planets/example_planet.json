@@ -10,7 +10,7 @@
 	"Atmosphere": {
 		"size": 700,
 		"clouds": {
-			"cloudsPrefab": "basic",
+			"cloudsPrefab": "giantsDeep",
 			"fluidType": "cloud",
 			"innerCloudRadius": 675,
 			"outerCloudRadius": 700
@@ -25,7 +25,7 @@
 		"hasTrees": true
 	},
 	"Water": {
-		"size": 20,
+		"size": 25,
 		"density": 100,
 		"buoyancy": 10.0,
 		"tint": {
