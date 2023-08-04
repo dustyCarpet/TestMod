@@ -19,7 +19,7 @@
 		"hasTrees": true
 	},
 	"Water": {
-		"size": 25,
+		"size": 20,
 		"density": 100,
 		"buoyancy": 10.0,
 		"tint": {
