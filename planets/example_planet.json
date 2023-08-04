@@ -10,12 +10,12 @@
 	"Atmosphere": {
 		"size": 750,
 		"clouds": {
-			"cloudsPrefab": "giantsDeep",
+			"cloudsPrefab": "transparent",
 			"texturePath": "planets/assets/thalassia_g.png",
 			"fluidType": "cloud",
 			"outerCloudRadius": 700,
-			"innerCloudRadius": 675,
-			"rotationSpeed": 5
+			"innerCloudRadius": 690,
+			"rotationSpeed": 10
 		},
 		"atmosphereTint": {
 			"r": 0,
@@ -44,12 +44,12 @@
 
 			},
 			{
-				"time": 1,
+				"time": 2,
 				"value": 40
 
 			},
 			{
-				"time": 2,
+				"time": 4,
 				"value": 45
 			},
 			{
