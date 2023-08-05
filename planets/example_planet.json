@@ -19,8 +19,8 @@
 		},
 		"atmosphereTint": {
 			"r": 0,
-			"g": 50,
-			"b": 150,
+			"g": 100,
+			"b": 250,
 			"a": 255
 		},
 		"fogTint": {
@@ -30,7 +30,7 @@
 			"a": 255
 		  },
 		  "fogSize": 750,
-		  "fogDensity": 0.3,
+		  "fogDensity": 0.2,
 		"hasOxygen": true,
 		"hasTrees": true,
 		"useAtmosphereShader": true,
