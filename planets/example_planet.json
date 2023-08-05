@@ -8,14 +8,14 @@
         "textureMap": "planets/assets/flat_earth_Largest_still.0330.jpg"
 	},
 	"Atmosphere": {
-		"size": 750,
+		"size": 650,
 		"clouds": {
 			"cloudsPrefab": "transparent",
 			"texturePath": "planets/assets/thalassia_g.png",
 			"fluidType": "cloud",
-			"outerCloudRadius": 700,
-			"innerCloudRadius": 690,
-			"rotationSpeed": 10
+			"outerCloudRadius": 650,
+			"innerCloudRadius": 640,
+			"rotationSpeed": 2
 		},
 		"atmosphereTint": {
 			"r": 0,
