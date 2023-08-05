@@ -25,7 +25,9 @@
 		},
 		"hasOxygen": true,
 		"hasTrees": true,
-		"useAtmosphereShader": true
+		"useAtmosphereShader": true,
+		"minShockSpeed": 200,
+		"maxShockSpeed": 400
 	},
 	"Water": {
 		"size": 10,
