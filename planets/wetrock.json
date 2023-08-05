@@ -23,7 +23,7 @@
         "a": 255
       },
       "fogSize": 150,
-      "fogDensity": 0.2,
+      "fogDensity": 5.2,
       "hasRain": true
     }
   }
