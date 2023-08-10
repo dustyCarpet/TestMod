@@ -11,7 +11,7 @@
 		"size": 620,
 		"clouds": {
 			"cloudsPrefab": "transparent",
-			"texturePath": "planets/assets/amogus",
+			"texturePath": "planets/assets/amogus.png",
 			"fluidType": "cloud",
 			"outerCloudRadius": 620,
 			"innerCloudRadius": 615,
